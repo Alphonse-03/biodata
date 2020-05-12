@@ -1,0 +1,41 @@
+{% load static %}
+<link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+</head>
+
+<body bgcolor="blue">
+    <<img src="" width="300" />
+    <h1><strong>
+    NAME:ALPHONSE PRAKASH<BR>
+    NICKNAME:CRABBY D<BR>
+    COURSE:Bachelors Of Computer Application<br>
+    HOMETOWN:BHAGAPUR<BR>
+    CONTACT NO:+91840989689,+916204521709<BR>
+    EMAIL:alphonseprakashbgp@gmail.com
+    <MARQUEe>THANKS FOR VISITING</MARQUEe>  </strong> </h1>
+    <script>
+    var image=["{% static 'images/alphonse.jpeg' %}","{% static 'images/alphonse3.jpg' %}"];
+    var i=0;
+    function changeImage()
+    {
+        if(i<image.length)
+        {
+            document.images[0].src=image[i];
+            i++;
+        }
+        else
+        {
+            i=0;
+        }
+    }
+    window.onload=setInterval("changeImage()",1000);
+            
+               
+    </script>
+</body>
+</html>

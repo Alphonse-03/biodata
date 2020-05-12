@@ -1,0 +1,92 @@
+{% load static %}
+<link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alphonse</title>
+</head>
+<style ="text/css">
+#head
+    {
+        background-color: purple;
+        color:black;
+        text-align: center;
+        padding: 6px;
+        height:10px;
+    }
+#about
+    {
+        background-color:grey;
+        color:black;
+        text-align: center;
+        height:10px;
+        width:10px;
+        float:left;
+        padding: 5px;
+    }
+#skills
+    {
+        background-color:grey;
+        color:black;
+        text-align: center;
+        height:10px;
+        width:10px;
+        float:left;
+        padding: 5px;
+    }
+#aim
+    {
+        background-color:grey;
+        color:black;
+        text-align: center;
+        height:10px;
+        width:10px;
+        float:left;
+        padding: 5px;
+    }
+#foot
+    {
+        background-color:grey;
+        color:black;
+        text-align: end;
+        height:10px;
+        width:10px;
+        float:left;
+        padding: 5px;
+        clear: both;
+    }
+#img
+    {
+        background-color:grey;
+        color:black;
+        
+        height:10px;
+        width:10px;
+        float:right;
+        padding: 5px;
+    
+    }
+</style>
+<body>
+  <div id="head">
+    Alphonse's Website
+  </div>
+  <div id="about">
+    <h1><strong>about</strong></h1>
+  </div> 
+   <div id="skills">
+    <h1><strong>skills</strong></h1>
+  </div> 
+   <div id="aim">
+    <h1><strong>ambition</strong></h1>
+  </div> 
+   <div id="img">
+    <img src="{% static 'images/alphonse.jpeg' %}">
+  </div>
+    <div id="foot">
+      contact me
+  </div>
+</body>
+</html>
