@@ -25,7 +25,7 @@ SECRET_KEY = 'k9zh0dyr-hhdxh-&ec@c--la*=3m(01^$xybler4x^f6#(&s)m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['biodataalphonse.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['crabby-alphonse.herokuapp.com','127.0.0.1']
 
 
 # Application definition
